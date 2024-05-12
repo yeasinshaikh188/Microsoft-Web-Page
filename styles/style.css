@@ -48,8 +48,8 @@ nav {
   width: 30%;
   justify-content: center;
 }
-.navbar2 h1{
-    font-size: 20px;
+.navbar2 h1 {
+  font-size: 20px;
 }
 .navbar2 img {
   width: 30px;
@@ -57,81 +57,177 @@ nav {
 }
 /* nav bar end */
 /* banner start */
-.banner{
-    background-image: url(../images/banner.png);
-    height: 500px;
-    width: 1320px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.banner {
+  background-image: url(../images/banner.png);
+  height: 500px;
+  width: 1320px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
-.banner img{
-    width: 100%;
-
+.banner img {
+  width: 100%;
 }
-.banner-info h1{
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 100px;
+.banner-info h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 100px;
 }
-.banner-info p{
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.banner-info p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.banner-info button{
-    background-color: #10439F;
-    color: white;
-    padding: 15px;
-    font-size: 20px;
-    border: none;
+.banner-info button {
+  background-color: #10439f;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
 }
-.banner-info{
-    margin-left: 100px;
-    position: absolute;
-    top: 120px;
+.banner-info {
+  margin-left: 100px;
+  position: absolute;
+  top: 120px;
 }
-
+.card-containre {
+  display: grid;
+  grid-template-columns: repeat(4, 330px);
+  width: 100%;
+  margin: 0 auto;
+  grid-gap: 6px;
+  justify-items: center;
+  margin-top: 70px;
+}
+.card1 {
+  height: 100%;
+  width: 300px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.card-img1 img {
+  width: 100%;
+}
+.card-text1 {
+  padding: 12px;
+}
+.card-text1 h1 {
+  font-size: 30px;
+}
+.card-text1 p {
+  margin-top: 16px;
+  margin-bottom: 70px;
+}
+.card-text1 button {
+  font-size: 20px;
+  padding: 12px;
+  background-color: #10439f;
+  color: white;
+  border: none;
+}
+.game {
+  font-size: 15px;
+  background-color: #ffc100;
+  padding: 10px;
+}
+.seria-container {
+  background-image: url(../images/seria.png);
+  width: 1300px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  position: relative;
+}
+.seria-second-div {
+  position: absolute;
+  top: 1420px;
+  left: 930px;
+}
+.seria-second-div h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.seria-second-div p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.seria-second-div button {
+  font-size: 20px;
+  padding: 15px;
+  background-color: #10439f;
+  color: white;
+  border: none;
+}
 @media screen and (max-width: 567px) {
-    /* nav start */
-    *{
-        padding: 3px;
-    }
+  /* nav start */
+  * {
+    padding: 5px;
+  }
   nav {
     width: 100%;
   }
   .nav-info li {
     display: none;
   }
-  .navbar2 h1{
+  .navbar2 h1 {
     display: none;
-}
-.navbar2 img {
+  }
+  .navbar2 img {
     width: 20px;
     margin-left: 10px;
   }
   /* navbar end */
   /* banner start */
-  .banner{
+  .banner {
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin-top: 10px;
     background-size: contain;
     background-repeat: no-repeat;
-}
-.banner-info{
+  }
+  .banner-info {
     width: 100%;
     position: absolute;
     top: 150px;
-    text-align: center;
     margin-left: 0;
-}
-.banner-info h1{
+  }
+  .banner-info h1 {
     font-size: 20px;
-}
-.banner-info button{
+  }
+  .banner-info button {
     padding: 10px;
-}
-
+  }
+  .card-containre {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 10px;
+    justify-items: center;
+  }
+  .card1 {
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 10px 18px #888888;
+  }
+  .seria-container {
+    background-image: url(../images/seria.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .seria-second-div {
+    position: absolute;
+    top: 3050px;
+    left: 0px;
+  }
+  .seria-second-div p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .seria-second-div h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
 }
