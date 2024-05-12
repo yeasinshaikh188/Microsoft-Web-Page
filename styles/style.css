@@ -159,6 +159,34 @@ nav {
   color: white;
   border: none;
 }
+.busines-section{
+ margin-top: 50px;
+}
+.busines-heading{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.card-containre2 {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    width: 1300px;
+    grid-gap: 46px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+  .ai-section{
+    margin-top: 70px;
+  }
+  .ai-title{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .card2 {
+    height: 100%;
+    width: 400px;
+    box-shadow: 3px 5px 8px #888888;
+  }
 @media screen and (max-width: 567px) {
   /* nav start */
   * {
@@ -208,10 +236,9 @@ nav {
   .card1 {
     height: 100%;
     width: 100%;
-    box-shadow: 5px 10px 18px #888888;
   }
   .seria-container {
-    background-image: url(../images/seria.png);
+    height: 340px;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -220,7 +247,7 @@ nav {
   .seria-second-div {
     position: absolute;
     top: 3050px;
-    left: 0px;
+    left: 20px;
   }
   .seria-second-div p {
     margin-top: 10px;
@@ -229,5 +256,19 @@ nav {
   .seria-second-div h1 {
     font-size: 40px;
     font-weight: bold;
+  }
+  .busines-heading{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.card-containre2 {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    width: 100%;
+    grid-gap: 10px;
+  }
+  .card2 {
+    height: 100%;
+    width: 100%;
   }
 }
